@@ -1,7 +1,6 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
-import { AutoScroll } from '@splidejs/splide-extension-auto-scroll';
 import Hero from "../assets/Heroimage.jpeg";
 
 
