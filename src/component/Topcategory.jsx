@@ -29,7 +29,8 @@ const Topcategory = () => {
   return (
     <div className='flex flex-col gap-8 items-center'>
         <div>
-            TOP CATEGORY
+            <p className='text-2xl font-bold'>TOP CATEGORY</p>
+            <div className='border-b-2 w-1/2'></div>
         </div>
         <div className='flex gap-8 px-12 sm:px-16'>
         {

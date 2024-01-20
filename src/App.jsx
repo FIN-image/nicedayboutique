@@ -67,8 +67,8 @@ function App() {
       < Hero />
       <div className="m-16">
         <div className="items-center flex flex-col m-10 ">
-          <p className="text-black  ">Latest arrival</p>
-          <p className="border-b-4 w-10 border-black "></p>
+          <p className="text-black font-medium text-2xl ">LATEST ARRIVAL</p>
+          <p className="border-b-4 w-20 border-black "></p>
         </div>
         <div className='grid sm:grid-cols-2 md:grid-cols-4 gap-8 px-12 sm:px-16'>
                   {
