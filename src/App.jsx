@@ -5,7 +5,7 @@ import  promo  from "../src/assets/promo.png"
 import Topcategory from "./component/Topcategory"
 import About from "./component/About"
 import Testimonial from "./component/Testimonial"
-import Footer from "./component/footer"
+import Footer from "./component/Footer"
 
 
 function App() {
