@@ -4,7 +4,7 @@ import hero from '../assets/Heroimage.jpeg'
 const About = () => {
   return (
     <div className='m-16 flex flex-col items-center gap-5'>
-        <div>
+        <div className='text-2xl self-start font-bold '>
             ABOUT US
         </div>
         <div className='flex gap-10 justify-between'>
