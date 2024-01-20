@@ -19,11 +19,11 @@ const Footer = () => {
             <div className='flex flex-col gap-3'>
                 <p className='font-bold text-2xl'>Contact Us</p>
                <div className='flex gap-2'>
-                <a href="">Phone</a>
+                <p>Phone</p>
                 <a href="">+234 808 104 5656</a>
                </div>
                 <div className='flex gap-2'>
-                    <a href="">Email</a>
+                    <p>Email</p>
                     <a href="">nicedayboutique@gmail.com</a>
                 </div>
             </div>
