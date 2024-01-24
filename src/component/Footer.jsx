@@ -20,11 +20,21 @@ const Footer = () => {
                 <p className='font-bold text-2xl'>Contact Us</p>
                <div className='flex gap-2'>
                 <p>Phone</p>
-                <a href="">+234 808 104 5656</a>
+                <a href="">+234 805 857 2474</a>
                </div>
                 <div className='flex gap-2'>
                     <p>Email</p>
-                    <a href="">nicedayboutique@gmail.com</a>
+                    <a href="mailto:nicedayboutique1@gmail.com"
+                    target='_blank'
+                    rel='noopener noreferrer'>nicedayboutique1@gmail.com
+                    </a>
+                </div>
+                <div className='flex gap-2'>
+                    <p>Address</p>
+                    <a href="mailto:nicedayboutique1@gmail.com"
+                    target='_blank'
+                    rel='noopener noreferrer'>12 king george v road, <span>onikan opp.access bank, Lagos, Nigeria.</span>
+                    </a>
                 </div>
             </div>
             <div className='flex flex-col gap-3'>
@@ -36,11 +46,23 @@ const Footer = () => {
             </div>
             <div className='flex flex-col gap-3'>
                 <p className='font-bold text-2xl'>Follow us</p>
-                <a href="" className='flex gap-3 text-2xl'>
+                <div className='flex gap-3 text-2xl'>
+                <a href="https://www.facebook.com/nicedayboutique.see.ng"
+                    target='_blank'
+                    rel='noopener noreferrer' >
                     <FaFacebookSquare />
+                </a>
+                <a href="https://twitter.com/nicedayboutique"
+                    target='_blank'
+                    rel='noopener noreferrer' >
                     <FaTwitter />
+                </a>
+                <a href="https://www.instagram.com/nicedayboutique.see.ng/"
+                    target='_blank'
+                    rel='noopener noreferrer' >
                     <FaInstagram />
                 </a>
+                </div>
             </div>
         </div>
     </div>

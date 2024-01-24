@@ -8,7 +8,10 @@ const NavBar = () => {
       <div className='flex bg-black pr-32'>
         <div className=' w-full h-10 text-white flex gap-1 justify-end items-center'>
             <h2>Need help?</h2>
-            <a href="" className='border-b'>contact us on whatsapp</a>
+            <a href="https://api.whatsapp.com/send?phone=%2B2348058572474&data=ARAuCcfC25bhvf4xrBI0DZGVS8FkXIwVzYMrMQhpKNExO6P9MtHTEzlwSekIvU4oARDrpfOSvhwbLxgSlZXkLtctzgaAUK6JsuRXHxh7vnJhzoSO_ofRDa1oeyW0D-ss79CkwW7PDrKwBVScVvJIX-G6aQ&source=FB_Page&app=facebook&entry_point=page_cta" 
+              target='_blank'
+              rel='noopener noreferrer'
+              className='border-b'>contact us on whatsapp</a>
             <h2>or</h2>
             <a href="" className='border-b' >contact us</a>
         </div>
@@ -21,8 +24,7 @@ const NavBar = () => {
           <div className='mx-10 flex gap-4 items-center pr-10 '>
             <a href="">WOMEN</a>
             <a href="">MEN</a>
-            <a href="">ACCESSORIES</a>
-            <a href="">NEW IN</a>
+            <a href="">NEW ARRIVAL</a>
             <a href="">DEALS</a>
             <a href="">CONTACT</a>
             <IoSearch />
